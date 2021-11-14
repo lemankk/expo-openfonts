@@ -1,0 +1,13 @@
+{
+  "name": "expo-openfonts-root",
+  "private": true,
+  "workspaces": [
+    "tools/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "expo-font": "^10.0.3",
+    "lerna": "^4.0.0",
+    "react": "^17.0.2"
+  }
+}

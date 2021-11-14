@@ -1,0 +1,50 @@
+{
+  "name": "expo-openfonts",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/es/index",
+  "commonjs": "lib/commonjs/index",
+  "module": "lib/es/index",
+  "types": "lib/types/index",
+  "repository": "https://github.com/lemankk/expo-openfonts.git",
+  "keywords": [
+    "fonts",
+    "expo"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "expo-asset": "*",
+    "expo-constants": "*",
+    "expo-font": "*",
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-transform-typescript": "^7.14.4",
+    "@babel/preset-env": "^7.14.4",
+    "@expo-openfonts-tools/build-config": "*",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@types/node": "^15.6.1",
+    "@types/react": "^17.0.9",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.50.4",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-sourcemaps": "^0.6.3",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.3.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "prebuild": "rimraf ./lib ./dist ./tmp ",
+    "compile": "rollup -c",
+    "build": "npm-run-all compile"
+  }
+}

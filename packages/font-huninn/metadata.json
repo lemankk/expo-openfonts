@@ -1,0 +1,10 @@
+{
+  "family": "JFOpenHuninn",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "Traditional Han"],
+  "version": "v1.1",
+  "lastModified": "2020-04-20",
+  "files": { "regular": "https://github.com/justfont/open-huninn-font/blob/master/font/jf-openhuninn-1.1.ttf" },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

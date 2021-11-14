@@ -1,0 +1,17 @@
+{
+  "name": "@expo-openfonts/huninn",
+  "version": "0.1.0",
+  "description": "JustFont Open Huninn for Expo",
+  "main": "index",
+  "types": "index",
+  "author": {
+    "name": "JustFont",
+    "url": "https://github.com/justfont/open-huninn-font"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "expo-openfonts": "*"
+  }
+}
